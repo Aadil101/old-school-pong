@@ -1,7 +1,6 @@
-#Lab 1 - Extra Credit - Pong
+#Slightly Cooler Version of Pong
 #Aadil Islam
-#January 30, 2017
-#CS 1
+#January 30, 2018
 
 from cs1lib import *
 from random import *

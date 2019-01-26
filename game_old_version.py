@@ -1,11 +1,9 @@
-#Lab 1 - Pong
+#Pong
 #Aadil Islam
 #January 30, 2018
-#CS 1
 
 from cs1lib import *
 from random import *
-
 
 #constants
 WINDOW_WIDTH = 400
@@ -126,11 +124,6 @@ def move_ball():
 
         #flip direction it was originally moving
         horiz_move = -horiz_move
-
-        #change ball color
-        ball_red = uniform(0,1)
-        ball_green = uniform(0,1)
-        ball_blue = uniform(0,1)
 
     #if ball hits upper/lower wall, horizontal mvmt stays same, only vertical mvmt flips
     if side_wall_collisions():
